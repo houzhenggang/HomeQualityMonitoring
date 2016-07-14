@@ -30,7 +30,7 @@ void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   // Set up DHT sensor
-  dht.begin();
+  dht.begin(); 
   // Setup dust sensor
   pinMode(ledPower,OUTPUT);
 }
